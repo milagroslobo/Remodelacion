@@ -1,0 +1,239 @@
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_extend.scss */
+#us {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 7, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_extend.scss */
+#us h1, #music p {
+  font-family: Dosis, Helvetica, sanserif;
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+/* line 14, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_extend.scss */
+#us .contenedor p {
+  font-family: Dosis, Helvetica, sanserif;
+  color: #d6d6d6;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_menu.scss */
+header nav ul {
+  background-color: rgba(100, 100, 100, 0.3);
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 12, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_menu.scss */
+li {
+  display: inline-block;
+}
+
+/* line 15, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_menu.scss */
+nav ul li a {
+  color: white;
+  font-family: Dosis,Helvetica, sanserif;
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 15px;
+}
+
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_home.scss */
+div #home {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 7, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_home.scss */
+#home {
+  background-image: url(../images/Phoenix.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+#us {
+  background-image: url(../images/fondo.png);
+  background-size: 100%, 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 12, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 5%;
+  width: 85%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+/* line 22, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+#us h1 {
+  color: #E61B23;
+  font-size: 6.5rem;
+  margin-top: 0.5%;
+  width: 90%;
+}
+
+/* line 30, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+#us .contenedor p {
+  color: white;
+  width: 90%;
+}
+
+/* line 36, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+#us .imagenes {
+  width: 90%;
+}
+
+/* line 40, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+.imagenes ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 45, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+.imagenes ul li {
+  margin: 0 10px;
+}
+
+/* line 49, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
+.imagenes ul li img {
+  width: 100%;
+}
+
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music p {
+  font-size: 6rem;
+  margin-top: 2%;
+}
+
+/* line 7, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music {
+  width: 100%;
+  height: 100%;
+  background-color: #d6d6d6;
+}
+
+/* line 13, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul {
+  margin: 7.5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+/* line 21, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li {
+  width: 31%;
+  margin: 1%;
+}
+
+/* line 26, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li img {
+  width: 100%;
+}
+
+/* line 32, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(2) .segunda {
+  display: none;
+}
+
+/* line 36, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(2):hover .primera {
+  display: none;
+}
+
+/* line 40, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(2):hover .segunda {
+  display: block;
+}
+
+/* line 45, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(3) .segunda {
+  display: none;
+}
+
+/* line 49, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(3):hover .primera {
+  display: none;
+}
+
+/* line 53, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(3):hover .segunda {
+  display: block;
+}
+
+/* line 58, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(4) .segunda {
+  display: none;
+}
+
+/* line 62, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(4):hover .primera {
+  display: none;
+}
+
+/* line 66, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(4):hover .segunda {
+  display: block;
+}
+
+/* line 71, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(5) .segunda {
+  display: none;
+}
+
+/* line 75, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(5):hover .primera {
+  display: none;
+}
+
+/* line 79, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(5):hover .segunda {
+  display: block;
+}
+
+/* line 83, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(6) .segunda {
+  display: none;
+}
+
+/* line 87, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(6):hover .primera {
+  display: none;
+}
+
+/* line 91, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+#music ul li:nth-child(6):hover .segunda {
+  display: block;
+}
+
+/*# sourceMappingURL=../css/estilos.map */
