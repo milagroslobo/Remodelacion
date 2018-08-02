@@ -9,7 +9,7 @@
 	justify-content: center;
 }
 
-.contenedor {
+#us .contenedor {
 	background-color: rgba(255,255,255,0.8);
 	margin-top: 5%;
 	width: 85%;
@@ -19,7 +19,7 @@
 	justify-content: center;
 	align-content:center;
 }
-#us h1 {
+#us h2 {
 	@extend %titulo;
 	color: $rojo;
 	font-size: 6.5rem;

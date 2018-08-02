@@ -1,0 +1,79 @@
+@media screen and ( min-width: 769px) and (max-width: 1024px) {
+	background: red;
+}
+
+
+@media screen and (max-width: 768px) {
+ nav ul li a {
+   
+    font-size: 24px;
+}
+
+#home {
+    background-size: 95%;
+}
+
+#us {
+	background-size: 320%;
+	background-repeat: repeat;
+	height: 100%;
+}
+#us .contenedor {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 0%;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#us h2 {
+    font-size: 4.5rem;
+   	margin: 0px;
+}
+
+#us .contenedor p {
+    width: 95%;
+    font-size: 17px;
+}
+
+.imagenes ul {
+	display: inline;
+    justify-content: center;
+}
+
+.imagenes ul li {
+    margin: 10px 0px;
+}
+
+#music h2 {
+    font-size: 3.5rem;
+   	margin: 0px;
+}
+
+#music ul{
+    padding-top: 16%;
+    padding-top: 8%;
+}
+#music ul li {
+    width: 48%;
+    margin: 1%;
+}
+
+#tour {
+    background-color: black;
+    background-image: url(../images/band5.jpg);
+    background-size: 187%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#tour .contenedor {
+    width: 44%;
+}
+
+
+}

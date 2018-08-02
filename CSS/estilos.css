@@ -8,14 +8,14 @@
 }
 
 /* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_extend.scss */
-#us {
+#us, #tour {
   background-color: white;
   width: 100%;
   height: 100vh;
 }
 
 /* line 7, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_extend.scss */
-#us h1, #music p {
+#us h2, #music h2, #tour h2 {
   font-family: Dosis, Helvetica, sanserif;
   color: white;
   font-size: 6rem;
@@ -71,6 +71,11 @@ div #home {
   background-repeat: no-repeat;
 }
 
+/* line 15, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_home.scss */
+h1 {
+  font-size: 0px;
+}
+
 /* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
 #us {
   background-image: url(../images/fondo.png);
@@ -83,7 +88,7 @@ div #home {
 }
 
 /* line 12, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
-.contenedor {
+#us .contenedor {
   background-color: rgba(255, 255, 255, 0.8);
   margin-top: 5%;
   width: 85%;
@@ -95,7 +100,7 @@ div #home {
 }
 
 /* line 22, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_us.scss */
-#us h1 {
+#us h2 {
   color: #E61B23;
   font-size: 6.5rem;
   margin-top: 0.5%;
@@ -130,7 +135,7 @@ div #home {
 }
 
 /* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
-#music p {
+#music h2 {
   font-size: 6rem;
   margin-top: 2%;
 }
@@ -140,11 +145,11 @@ div #home {
   width: 100%;
   height: 100%;
   background-color: #d6d6d6;
+  padding: 4%;
 }
 
-/* line 13, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
+/* line 14, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
 #music ul {
-  margin: 7.5%;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -234,6 +239,156 @@ div #home {
 /* line 91, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_music.scss */
 #music ul li:nth-child(6):hover .segunda {
   display: block;
+}
+
+/* line 1, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+#tour {
+  height: 140%;
+  background-image: url(../images/band5.jpg);
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 13, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+#tour .contenedor {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 21, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+#tour .contenedor ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+/* line 31, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+#tour h2 {
+  color: white;
+  font-size: 3.5rem;
+  margin-top: 20%;
+}
+
+/* line 38, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+.fecha {
+  font-family: Dosis, Helvetica, sanserif;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* line 46, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+.guion {
+  font-family: Dosis, Helvetica, sanserif;
+  color: #D0108C;
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+/* line 54, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+.ciudad {
+  font-family: Dosis, Helvetica, sanserif;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: italic;
+  width: 100%;
+}
+
+/* line 61, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_tour.scss */
+#tour .contenedor ul li a {
+  font-family: Dosis, Helvetica, sanserif;
+  color: #D0108C;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  background: red;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 7, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  nav ul li a {
+    font-size: 24px;
+  }
+  /* line 12, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #home {
+    background-size: 95%;
+  }
+  /* line 16, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #us {
+    background-size: 320%;
+    background-repeat: repeat;
+    height: 100%;
+  }
+  /* line 21, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #us .contenedor {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 0%;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  /* line 32, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #us h2 {
+    font-size: 4.5rem;
+    margin: 0px;
+  }
+  /* line 37, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #us .contenedor p {
+    width: 95%;
+    font-size: 17px;
+  }
+  /* line 42, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  .imagenes ul {
+    display: inline;
+    justify-content: center;
+  }
+  /* line 47, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  .imagenes ul li {
+    margin: 10px 0px;
+  }
+  /* line 51, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #music h2 {
+    font-size: 3.5rem;
+    margin: 0px;
+  }
+  /* line 56, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #music ul {
+    padding-top: 16%;
+    padding-top: 8%;
+  }
+  /* line 60, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #music ul li {
+    width: 48%;
+    margin: 1%;
+  }
+  /* line 65, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #tour {
+    background-color: black;
+    background-image: url(../images/band5.jpg);
+    background-size: 187%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 74, /Users/Milagros/Desktop/CODERHOUSE/Remodelacion/scss/_mobile.scss */
+  #tour .contenedor {
+    width: 44%;
+  }
 }
 
 /*# sourceMappingURL=../css/estilos.map */
